@@ -6,7 +6,6 @@ for i in range(num):
     val = float(input("Enter a list element: "))
     my_list.append(val)
     
-print(my_list)
 while swapped:
     swapped = False
     for i in range(len(my_list) - 1):
